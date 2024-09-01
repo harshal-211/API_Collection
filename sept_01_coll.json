@@ -26,11 +26,23 @@
 			],
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer b6375f8167f1d72cdb747365891a993413a8715e604c369aa86f82a698d351b9",
+						"type": "text"
+					}
+				],
 				"url": {
-					"raw": "{{URL}}7380194",
+					"raw": "{{BaseURL}}/public/v2/users/",
 					"host": [
-						"{{URL}}7380194"
+						"{{BaseURL}}"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						""
 					]
 				}
 			},
